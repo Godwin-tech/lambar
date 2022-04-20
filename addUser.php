@@ -28,7 +28,7 @@ if (isset($_POST['addUser'])){
       // assign success massage if inserted successfully
       if($insert){
         $successMsg = "User Has been added successfully.";
-        // header('Location: addUser.php');
+        header('Location: users.php');
       }
     }
 
